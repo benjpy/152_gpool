@@ -2,27 +2,12 @@
 
 Follow these steps to deploy your application to GitHub and Streamlit Cloud.
 
-## 1. Push Code to GitHub
+## 1. Code is on GitHub
 
-1.  **Initialize Git** (if not already done):
-    ```bash
-    git init
-    ```
-2.  **Add all files**:
-    ```bash
-    git add .
-    ```
-3.  **Create initial commit**:
-    ```bash
-    git commit -m "Initialize project and prepare for deployment"
-    ```
-4.  **Create a new repository** on GitHub (e.g., `gpool`).
-5.  **Add the remote and push**:
-    ```bash
-    git remote add origin https://github.com/YOUR_USERNAME/gpool.git
-    git branch -M main
-    git push -u origin main
-    ```
+The code has already been pushed to your public repository:
+[https://github.com/benjpy/152_gpool](https://github.com/benjpy/152_gpool)
+
+You can skip any local Git setup for now unless you want to make further changes.
 
 ## 2. Deploy to Streamlit Cloud
 
